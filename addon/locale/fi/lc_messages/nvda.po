@@ -1,0 +1,443 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'whatsAppPlus' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'whatsAppPlus' '2.2.0'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2025-04-20 13:46+0300\n"
+"PO-Revision-Date: 2025-04-20 14:09+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: addon\appModules\whatsapp.py:267 addon\appModules\whatsapp.py:294
+msgid "Chat list not found"
+msgstr "Keskusteluluetteloa ei löydetty"
+
+#. Go to the last message in the chat
+#: addon\appModules\whatsapp.py:305
+msgid "Move focus to the last message in an open chat"
+msgstr "Siirrä kohdistus avatun keskustelun viimeiseen viestiin"
+
+#: addon\appModules\whatsapp.py:316 addon\appModules\whatsapp.py:345
+#: addon\appModules\whatsapp.py:398 addon\appModules\whatsapp.py:405
+msgid "No open chat"
+msgstr "Ei avointa keskustelua"
+
+#: addon\appModules\whatsapp.py:317 addon\appModules\whatsapp.py:346
+msgid "This chat is empty"
+msgstr "Tämä keskustelu on tyhjä"
+
+#. Go to chat list
+#: addon\appModules\whatsapp.py:320
+msgid "Move focus to chat list"
+msgstr "Siirrä kohdistus keskusteluluetteloon"
+
+#: addon\appModules\whatsapp.py:336
+msgid "Chat list is empty"
+msgstr "Keskusteluluettelo on tyhjä"
+
+#. Go to "unread messages" label
+#: addon\appModules\whatsapp.py:339
+msgid "Move focus to 'unread messages' label"
+msgstr "Siirrä kohdistus lukemattomien viestien ilmoitukseen"
+
+#: addon\appModules\whatsapp.py:353
+msgid "There are no unread messages in this chat"
+msgstr "Tässä keskustelussa ei ole lukemattomia viestejä"
+
+#. Changing the playback speed of a voice message
+#: addon\appModules\whatsapp.py:356
+msgid "Increase/decrease the playback speed of voice messages"
+msgstr "Lisää/vähennä ääniviestien toistonopeutta"
+
+#: addon\appModules\whatsapp.py:359 addon\appModules\whatsapp.py:368
+#: addon\appModules\whatsapp.py:374 addon\appModules\whatsapp.py:383
+msgid "Nothing is playing right now"
+msgstr "Ei toistoa"
+
+#. Play/pause voice message
+#: addon\appModules\whatsapp.py:371
+msgid "Play/pause the voice message currently playing"
+msgstr "Toista/tauota nykyinen ääniviesti"
+
+#. Read profile name and status in open chat
+#: addon\appModules\whatsapp.py:386
+msgid "Announce the name and status of an open chat"
+msgstr "Ilmoita avoimen keskustelun nimi ja tila"
+
+#: addon\appModules\whatsapp.py:389
+msgid "Chat activity tracking is enabled"
+msgstr "Keskustelun seuranta käytössä"
+
+#: addon\appModules\whatsapp.py:390
+msgid "Chat activity tracking is disabled"
+msgstr "Keskustelun seuranta pois"
+
+#: addon\appModules\whatsapp.py:400
+msgid "Open current chat profile"
+msgstr "Avaa nykyisen keskustelun profiili"
+
+#. Перенести фокус в поле вводу повідомлення. Якщо фокус вже знаходиться в цьому полі, тоді перенести його на останній елемент який був в фокусі перед цим полемMove the focus to the edit field. If the focus is already in this field, then move it to the last element that had focus before this field
+#: addon\appModules\whatsapp.py:408
+msgid ""
+"Move the focus to the edit field. If the focus is already in the edit field, "
+"then after pressing the hotkey, it will move to where it was before"
+msgstr ""
+"Siirrä kohdistus kirjoituskenttään. Mikäli kohdistus on jo kirjoituskentässä, "
+"tämä siirtää sen edelliseen kohdistettuun kohteeseen"
+
+#. Copy current message to clipboard
+#: addon\appModules\whatsapp.py:425
+msgid "Copy the message if it contains text"
+msgstr "Kopioi viesti, mikäli se sisältää tekstiä"
+
+#: addon\appModules\whatsapp.py:435
+msgid "Message copied"
+msgstr "Viesti kopioitu"
+
+#: addon\appModules\whatsapp.py:436 addon\appModules\whatsapp.py:447
+msgid "This message contains no text"
+msgstr "Tässä viestissä ei ole tekstiä"
+
+#. Show message text in popup window
+#: addon\appModules\whatsapp.py:439
+msgid "Show message text in popup window"
+msgstr "Näytä viestin teksti ponnahdusikkunassa"
+
+#: addon\appModules\whatsapp.py:446
+msgid "message text"
+msgstr "Viestin teksti"
+
+#. Call if it's a contact, or enter a voice chat if it's a group
+#: addon\appModules\whatsapp.py:450
+msgid "Make a voice call"
+msgstr "Aloita äänipuhelu"
+
+#: addon\appModules\whatsapp.py:454
+msgid "Call unavailable"
+msgstr "Puhelu ei käytettävissä"
+
+#. Make a video call if it's a contact
+#: addon\appModules\whatsapp.py:457
+msgid "Make a video call"
+msgstr "Aloita videopuhelu"
+
+#: addon\appModules\whatsapp.py:461
+msgid "Video call not available"
+msgstr "Videopuhelu ei käytettävissä"
+
+#. Mute/unmute the microphone
+#: addon\appModules\whatsapp.py:471
+msgid "Mute or unmute the microphone"
+msgstr "Mykistä mikrofoni tai poista sen mykistys"
+
+#. Turn on/off the camera
+#: addon\appModules\whatsapp.py:483
+msgid "Turn the camera on and off"
+msgstr "Ota kamera käyttöön tai poista se käytöstä"
+
+#. Press the "Attach media" button
+#: addon\appModules\whatsapp.py:495
+msgid "Press \"Attach file\" button"
+msgstr "Paina \"Liitä tiedosto\" -painiketta"
+
+#: addon\appModules\whatsapp.py:499 addon\appModules\whatsapp.py:508
+#: addon\appModules\whatsapp.py:615
+msgid "Button not found"
+msgstr "Painiketta ei löydy"
+
+#. Press the "New conversation" button
+#. Press the "More options" button
+#: addon\appModules\whatsapp.py:504
+msgid "Press \"More Options\" button"
+msgstr "Paina \"Lisää asetuksia\" -painiketta"
+
+#. Function of recording and sending a voice message
+#: addon\appModules\whatsapp.py:511
+msgid "Record and send a voice message"
+msgstr "Nauhoita ja lähetä ääniviesti"
+
+#. If the edit field is not empty
+#: addon\appModules\whatsapp.py:519
+msgid ""
+"Recording a voice message will not be available until the edit field is empty"
+msgstr ""
+"Ääniviestin nauhoitus ei ole käytettävissä, jos kirjoituskentässä on tekstiä"
+
+#. Voice message discard function
+#: addon\appModules\whatsapp.py:532
+msgid "Discard voice message"
+msgstr "Peruuta ääniviestin lähetys"
+
+#: addon\appModules\whatsapp.py:545
+msgid "Reply canceled"
+msgstr "Vastaus peruutettu"
+
+#. Voice message recording pause function
+#: addon\appModules\whatsapp.py:548
+msgid "Pause/resume voice message recording"
+msgstr "Pysäytä  / jatka äänitystä"
+
+#: addon\appModules\whatsapp.py:570
+msgid "Forward message"
+msgstr "Välitä viesti"
+
+#. @script(description=_("React to message"), gesture="kb:ALT+Q")
+#. def script_set_reaction(self, gesture):
+#. self.activate_option_for_menu(icon_from_context_menu["react"])
+#: addon\appModules\whatsapp.py:576
+msgid "Delete a message or chat"
+msgstr "Poista viesti tai keskustelu"
+
+#: addon\appModules\whatsapp.py:579
+msgid "Reply to message"
+msgstr "Vastaa viestiin"
+
+#: addon\appModules\whatsapp.py:582
+msgid "Edit message"
+msgstr "Muokkaa viestiä"
+
+#: addon\appModules\whatsapp.py:585
+msgid "Mark a chat as read"
+msgstr "Merkitse keskustelu luetuksi"
+
+#: addon\appModules\whatsapp.py:588
+msgid "Star message"
+msgstr "Merkitse viesti tähdellä"
+
+#: addon\appModules\whatsapp.py:591
+msgid "Save file as..."
+msgstr "Tallenna tiedosto nimellä..."
+
+#: addon\appModules\whatsapp.py:613
+msgid "Back"
+msgstr "Takaisin"
+
+#. Switching the mode of deleting a phone number in contact names
+#: addon\appModules\whatsapp.py:618
+msgid ""
+"Toggles the mode that removes the reading of the user number when reading "
+"messages that are not in the contact list"
+msgstr ""
+"Ottaa käyttöön tai poistaa käytöstä sellaisten numeroiden lukemisen, joita ei "
+"ole yhteystiedoissa"
+
+#: addon\appModules\whatsapp.py:621
+msgid "User numbers will be read"
+msgstr "Käyttäjien numerot luetaan"
+
+#: addon\appModules\whatsapp.py:622
+msgid "User numbers will not be read"
+msgstr "Käyttäjien numeroita ei lueta"
+
+#: addon\appModules\whatsapp.py:624
+msgid "Enable automatic reading of new messages in the current chat"
+msgstr ""
+"Ota käyttöön nykyisen keskustelun automaattinen uusien viestien lukeminen"
+
+#: addon\appModules\whatsapp.py:626
+msgid "Automatic reading of messages is enabled"
+msgstr "Automaattinen uusien viestien lukeminen käytössä"
+
+#: addon\appModules\whatsapp.py:627
+msgid "Automatic reading of new messages is disabled"
+msgstr "Automaattinen uusien viestien lukeminen pois"
+
+#: addon\appModules\whatsapp.py:629
+msgid ""
+"Announce the current value of the progress bar. When double-pressed, turns on/"
+"off the automatic sounding of performance indicators."
+msgstr ""
+"Ilmoita edistymispalkin nykyinen arvo. Kahdesti painettaessa muuttaa "
+"automaattisten edistymispalkin ilmoitusten tilaa."
+
+#: addon\appModules\whatsapp.py:633
+msgid ""
+"Now the values ​​of the performance indicators will be announced automatically"
+msgstr "Automaattinen edistyspalkkien ilmoitus käytössä"
+
+#: addon\appModules\whatsapp.py:634
+msgid ""
+"Now the values ​​of the progress indicators will not be announced automatically"
+msgstr "Automaattinen edistyspalkkien ilmoitus pois"
+
+#: addon\appModules\whatsapp.py:640
+msgid "This message does not include a progress bar"
+msgstr "Tässä viestissä ei ole edistymispalkkia"
+
+#: addon\appModules\whatsapp.py:641
+msgid "This element is not a message"
+msgstr "Tämä kohde ei ole viesti"
+
+#: addon\appModules\whatsapp.py:643
+msgid "Switch to selection mode"
+msgstr "Vaihda valintatilaan"
+
+#: addon\appModules\whatsapp.py:647
+msgid "Show a list of all whatsAppPlus shortcuts"
+msgstr "Näytä kaikki WhatsAppPlus-lisäosan näppäinkomennot"
+
+#: addon\appModules\whatsapp.py:661
+msgid "List of shortcuts"
+msgstr "Näppäinkomentoluettelo"
+
+#: addon\appModules\whatsapp.py:716
+msgid "In response to"
+msgstr "Vastaa"
+
+#: addon\appModules\whatsapp.py:726
+msgid "You"
+msgstr "Sinä"
+
+#: addon\appModules\whatsapp.py:736
+msgid "Selected"
+msgstr "Valittu"
+
+#: addon\appModules\whatsapp.py:781
+msgid "Answer to"
+msgstr "Vastaa"
+
+#: addon\appModules\whatsapp.py:813
+msgid "Cancel reply"
+msgstr "Peruuta vastaus"
+
+#: addon\appModules\whatsapp.py:814
+msgid "Close"
+msgstr "Sulje"
+
+#: addon\appModules\whatsapp.py:819
+msgid "Add"
+msgstr "Lisää"
+
+#: addon\appModules\whatsapp.py:820
+msgid "Star"
+msgstr "Lisää tähti"
+
+#: addon\appModules\whatsapp.py:821
+msgid "Unstar"
+msgstr "Poista tähti"
+
+#: addon\appModules\whatsapp.py:822
+msgid "React to message"
+msgstr "Reagoi viestiin"
+
+#: addon\appModules\whatsapp.py:823
+msgid "Next"
+msgstr "Seuraava"
+
+#: addon\appModules\whatsapp.py:824
+msgid "Previous"
+msgstr "Edellinen"
+
+#: addon\appModules\whatsapp.py:825
+msgid "Mute"
+msgstr "Mykistä"
+
+#: addon\appModules\whatsapp.py:826
+msgid "Unmute"
+msgstr "Poista mykistys"
+
+#: addon\appModules\whatsapp.py:827
+msgid "Pause"
+msgstr "Tauota"
+
+#: addon\appModules\whatsapp.py:828
+msgid "Play"
+msgstr "Toista"
+
+#: addon\appModules\whatsapp.py:829
+msgid "Copy"
+msgstr "Kopioi"
+
+#: addon\appModules\whatsapp.py:830
+msgid "Forward"
+msgstr "Välitä"
+
+#: addon\appModules\whatsapp.py:831
+msgid "Delete"
+msgstr "Poista"
+
+#. Call answer
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:46
+msgid "Accept call"
+msgstr "Vastaa puheluun"
+
+#. End or decline call
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:57
+msgid ""
+"Press \"Decline call\" button  if there is an incoming call or \"End call\" "
+"button if a call is in progress"
+msgstr ""
+"Painaa \"Lopeta puhelu\", jos puhelu on käynnissä tai \"Hylkää puhelu\", jos "
+"se on tulossa."
+
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:69
+msgid "Open WhatsAppPlus settings window"
+msgstr "Avaa WhatsAppPlus-asetukset"
+
+#. A field for entering a user name so that the application can replace the phone number with the phrase "You" in messages
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:78
+msgid ""
+"Enter the name that you have provided in your WhatsApp account. This is so "
+"that WhatsAppPlus can distinguish your messages from other messages."
+msgstr ""
+"Kirjoita nimi, jonka olet antanut WhatsApp -tilillesi. Tämä siksi, että "
+"WhatsApplus voi erottaa viestisi muista viesteistä."
+
+#. A field for entering a phone number so that the application can replace the phone number with the phrase "You" in messages
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:81
+msgid ""
+"Enter a phone number. This is to prevent the app from displaying your phone "
+"number on messages sent by you."
+msgstr ""
+"Kirjoita puhelinnumero. Tämä estää sovellusta näyttämästä puhelinnumeroa "
+"lähettämissäsi viesteissä."
+
+#. Field for setting the function of moving focus to unread messages
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:84
+msgid ""
+"In this field, separate by commas, write all the matching phrases of the "
+"\"Unread messages\" element in your language. You need to write phrases "
+"without a number."
+msgstr ""
+"Kirjoita tähän pilkulla eroteltuina kaikki \"Lukematonta viestiä\" -elementtiä "
+"vastaavat lauseet omalla kielelläsi. Sinun on kirjoitettava ne ilman numeroa."
+
+#. Turn on sounds when recording voice messages
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:87
+msgid "Play sounds when starting, pausing and sending a voice message"
+msgstr "Toista ääni ääniviestiä aloitettaessa, tauotettaessa ja lähetettäessä"
+
+#: addon\GlobalPlugins\WhatsAppPlus\__init__.py:91
+msgid "Automatically report progress bar updates when focus is on a message"
+msgstr ""
+"Ilmoita edistymispalkin päivitykset automaattisesti kohdistuksen ollessa "
+"viestissä"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "WhatsAppPlus"
+msgstr "WhatsAppPlus"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"This add-on adds many hotkeys for quick navigation through the main elements "
+"of the window, convenient interaction with chat messages, and also adds many "
+"minor improvements that make working in WhatsApp much easier."
+msgstr ""
+"Tämä lisäosa lisää komentoja WhatsAppin käyttöliittymän eri osien välillä "
+"navigointiin, parantaa vuorovaikutusta viestien kanssa sekä tuo muita "
+"pienempiä parannuksia, joiden ansiosta WhatsAppin käyttö on helpompaa."
