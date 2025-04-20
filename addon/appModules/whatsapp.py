@@ -61,7 +61,6 @@ SPEC = {
 	'phrasesOfUnreadMessages': 'string(default="'+phrases_of_unread_messages.get(lang, "en")+'")',
 	'number_phone': 'string(default="")',
 	'user_name': 'string(default="")',
-	'isAutomaticallyCheckForUpdates': 'boolean(default=True)',
 	'displayPhoneNumberInUsername': 'boolean(default=True)',
 	'automaticReadingOfNewMessages': 'boolean(default=False)',
 	'automatically_report_progress_indicators': 'boolean(default=False)',
@@ -795,7 +794,7 @@ class AppModule(appModuleHandler.AppModule):
 				if obj.name == "WhatsApp.CleanViewModels.LightBox.ItemVm.LightBoxExtendedTextItemVm" and obj.firstChild:
 					# A caption for a text-only story
 					obj.name = obj.firstChild.name
-				elif obj.name in ('WhatsApp.CallParticipantVm', 'WhatsApp.SelfStreamVm', 'WhatsApp.RecipientItem', 'WhatsApp.ReceiptViewModel'):
+				elif obj.name in ('WhatsApp.CallParticipantVm', 'WhatsApp.SelfStreamVm', 'WhatsApp.RecipientItem', 'WhatsApp.ReceiptViewModel', 'WhatsApp.CleanViewModels.LightBox.ItemVm.LightBoxExtendedTextItemVm', 'WhatsApp.PollDetailsOptionItemVm', 'WhatsApp.ViewModels.LightBox.ItemVm.LightBoxVideoItemVm'):
 					obj.name = ", ".join([m.name for m in obj.children])
 				elif obj.name == 'WhatsApp.Design.LightBoxExtendedTextItemVm':
 					obj.name = obj.firstChild.name
